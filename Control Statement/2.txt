@@ -1,0 +1,14 @@
+#nested if else
+p=89
+m=71
+c=67
+if p>=85:
+    if m>=75:
+        if c>=65:
+            print("You are admitted")
+        else:
+            print("Che marks is low")
+    else:
+         print("phy marks is low")  
+else:
+    print("Che marks is low")       
