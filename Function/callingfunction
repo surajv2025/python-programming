@@ -1,0 +1,9 @@
+#called function
+
+def f1():
+    print("i m f1")
+def f2():#calling
+    print("i m f2")
+    f1()#called
+
+f2()

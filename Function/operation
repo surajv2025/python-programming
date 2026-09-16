@@ -1,0 +1,27 @@
+#WAP to perfrom all aritmatic operation with function
+def add(a,b):
+    x=a+b
+    return x
+
+def sub(a,b):#a,b formal args
+    x=a-b
+    return x
+
+def mul(a,b):
+    x=a*b
+    return x
+    
+def div(a,b):
+    x=a/b
+    return x
+
+def mod(a,b):
+    x=a%b
+    return x
+
+n1=int(input("Enter first No:"))
+n2=int(input("Enter second No:"))
+r=sub(n1,n2)#n1,n2 acctual args
+print("Sub=",r)
+r=mul(n1,n2)
+print("Mul=",r)
